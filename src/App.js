@@ -2,6 +2,7 @@ import './App.css';
 import AppStyle from './Components/AppStyle';
 import ClassClick from './Components/ClassClick';
 import ConditionalRendering from './Components/ConditionalRendering';
+import Form from './Components/Form';
 import FunctionalClick from './Components/FunctionalClick';
 import Greet from './Components/Greet';
 import Inline from './Components/Inline';
@@ -38,6 +39,8 @@ function App() {
       <Inline/>
 
       <AppStyle/>
+
+      <Form/>
     </div>
   );
 }
